@@ -1,4 +1,4 @@
-CLAGS = -Wall -pedantic -std=c99
+CFLAGS = -Wall -pedantic -std=c99
 
 default : loop
 
@@ -10,4 +10,4 @@ loop.o : loop.c
 	gcc -c loop.c
 
 clean : 
-	rm -rf loop
+	rm -f loop
