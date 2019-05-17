@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 int main (int argc, char *argv[]) {
-
+	while 
 	printf("Bonjour\nVoici un test des structures de contrôle\n");
 
 	int i;
